@@ -1,0 +1,327 @@
+
+[ups. model: height fit]
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 34
+    # data points      = 27
+    # variables        = 1
+    chi-square         = 10.7680128
+    reduced chi-square = 0.41415434
+    Akaike info crit   = -22.8199363
+    Bayesian info crit = -21.5240995
+[[Variables]]
+    g:        9.81 (fixed)
+    sigma:    0.02483 (fixed)
+    mu:       0.0026 (fixed)
+    rho:      774 (fixed)
+    R_0:      0.00065 (fixed)
+    theta_s:  2.970801 (fixed)
+    L:        0.00991558 +/- 0.00000000 (0.00%) == '-2*sigma*cos(theta_s)/(rho*g*R_0)'
+    U:        1.23385275 +/- 0.00000000 (0.00%) == 'R_0**2*rho*g/mu'
+    T:        0.00803628 +/- 0.00000000 (0.00%) == 'L/U'
+    P:        75.2884142 +/- 0.00000000 (0.00%) == 'rho*g*L'
+    epsilon:  0.06555339 +/- 0.00000000 (0.00%) == 'R_0/L'
+    Re:       3642.07704 +/- 0.00000000 (0.00%) == 'rho*U*L/mu'
+    I:        15.6509058 +/- 0.00000000 (0.00%) == 'epsilon**2 * Re'
+    Ca:       1.97090090 +/- 0.00000000 (0.00%) == 'mu*U/sigma/epsilon'
+    eta:      4.58843559 +/- 0.16212943 (3.53%) (init = 1)
+    slip:     0 (fixed)
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 82
+    # data points      = 27
+    # variables        = 2
+    chi-square         = 10.7680129
+    reduced chi-square = 0.43072052
+    Akaike info crit   = -20.8199361
+    Bayesian info crit = -18.2282623
+[[Variables]]
+    g:        9.81 (fixed)
+    sigma:    0.02483 (fixed)
+    mu:       0.0026 (fixed)
+    rho:      774 (fixed)
+    R_0:      0.00065 (fixed)
+    theta_s:  2.970801 (fixed)
+    L:        0.00991558 +/- 0.00000000 (0.00%) == '-2*sigma*cos(theta_s)/(rho*g*R_0)'
+    U:        1.23385275 +/- 0.00000000 (0.00%) == 'R_0**2*rho*g/mu'
+    T:        0.00803628 +/- 0.00000000 (0.00%) == 'L/U'
+    P:        75.2884142 +/- 0.00000000 (0.00%) == 'rho*g*L'
+    epsilon:  0.06555339 +/- 0.00000000 (0.00%) == 'R_0/L'
+    Re:       3642.07704 +/- 0.00000000 (0.00%) == 'rho*U*L/mu'
+    I:        15.6509058 +/- 0.00000000 (0.00%) == 'epsilon**2 * Re'
+    Ca:       1.97090090 +/- 0.00000000 (0.00%) == 'mu*U/sigma/epsilon'
+    eta:      4.58839707 +/- 0.16533878 (3.60%) (init = 1)
+    slip:     2.4762e-09 +/- 1.1278e-05 (455468.96%) (init = 0.1)
+
+[ups. model: theta fit]
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 32
+    # data points      = 24
+    # variables        = 1
+    chi-square         = 31.5212465
+    reduced chi-square = 1.37048898
+    Akaike info crit   = 8.54259153
+    Bayesian info crit = 9.72064536
+[[Variables]]
+    g:        9.81 (fixed)
+    sigma:    0.02483 (fixed)
+    mu:       0.0026 (fixed)
+    rho:      774 (fixed)
+    R_0:      0.00065 (fixed)
+    theta_s:  2.970801 (fixed)
+    L:        0.00991558 +/- 0.00000000 (0.00%) == '-2*sigma*cos(theta_s)/(rho*g*R_0)'
+    U:        1.23385275 +/- 0.00000000 (0.00%) == 'R_0**2*rho*g/mu'
+    T:        0.00803628 +/- 0.00000000 (0.00%) == 'L/U'
+    P:        75.2884142 +/- 0.00000000 (0.00%) == 'rho*g*L'
+    epsilon:  0.06555339 +/- 0.00000000 (0.00%) == 'R_0/L'
+    Re:       3642.07704 +/- 0.00000000 (0.00%) == 'rho*U*L/mu'
+    I:        15.6509058 +/- 0.00000000 (0.00%) == 'epsilon**2 * Re'
+    Ca:       1.97090090 +/- 0.00000000 (0.00%) == 'mu*U/sigma/epsilon'
+    eta:      3.96345920 +/- 0.14287179 (3.60%) (init = 1)
+    slip:     0 (fixed)
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 71
+    # data points      = 24
+    # variables        = 2
+    chi-square         = 31.5212457
+    reduced chi-square = 1.43278390
+    Akaike info crit   = 10.5425909
+    Bayesian info crit = 12.8986986
+[[Variables]]
+    g:        9.81 (fixed)
+    sigma:    0.02483 (fixed)
+    mu:       0.0026 (fixed)
+    rho:      774 (fixed)
+    R_0:      0.00065 (fixed)
+    theta_s:  2.970801 (fixed)
+    L:        0.00991558 +/- 0.00000000 (0.00%) == '-2*sigma*cos(theta_s)/(rho*g*R_0)'
+    U:        1.23385275 +/- 0.00000000 (0.00%) == 'R_0**2*rho*g/mu'
+    T:        0.00803628 +/- 0.00000000 (0.00%) == 'L/U'
+    P:        75.2884142 +/- 0.00000000 (0.00%) == 'rho*g*L'
+    epsilon:  0.06555339 +/- 0.00000000 (0.00%) == 'R_0/L'
+    Re:       3642.07704 +/- 0.00000000 (0.00%) == 'rho*U*L/mu'
+    I:        15.6509058 +/- 0.00000000 (0.00%) == 'epsilon**2 * Re'
+    Ca:       1.97090090 +/- 0.00000000 (0.00%) == 'mu*U/sigma/epsilon'
+    eta:      3.96353583 +/- 0.14608609 (3.69%) (init = 1)
+    slip:     1.7566e-09 +/- 1.0600e-05 (603442.80%) (init = 0.1)
+
+[ups. model: height & theta fit]
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 32
+    # data points      = 51
+    # variables        = 1
+    chi-square         = 47.5697265
+    reduced chi-square = 0.95139453
+    Akaike info crit   = -1.55108264
+    Bayesian info crit = 0.38074299
+[[Variables]]
+    g:        9.81 (fixed)
+    sigma:    0.02483 (fixed)
+    mu:       0.0026 (fixed)
+    rho:      774 (fixed)
+    R_0:      0.00065 (fixed)
+    theta_s:  2.970801 (fixed)
+    L:        0.00991558 +/- 0.00000000 (0.00%) == '-2*sigma*cos(theta_s)/(rho*g*R_0)'
+    U:        1.23385275 +/- 0.00000000 (0.00%) == 'R_0**2*rho*g/mu'
+    T:        0.00803628 +/- 0.00000000 (0.00%) == 'L/U'
+    P:        75.2884142 +/- 0.00000000 (0.00%) == 'rho*g*L'
+    epsilon:  0.06555339 +/- 0.00000000 (0.00%) == 'R_0/L'
+    Re:       3642.07704 +/- 0.00000000 (0.00%) == 'rho*U*L/mu'
+    I:        15.6509058 +/- 0.00000000 (0.00%) == 'epsilon**2 * Re'
+    Ca:       1.97090090 +/- 0.00000000 (0.00%) == 'mu*U/sigma/epsilon'
+    eta:      4.09849007 +/- 0.10804250 (2.64%) (init = 1)
+    slip:     0 (fixed)
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 82
+    # data points      = 51
+    # variables        = 2
+    chi-square         = 47.5697258
+    reduced chi-square = 0.97081073
+    Akaike info crit   = 0.44891661
+    Bayesian info crit = 4.31256788
+[[Variables]]
+    g:        9.81 (fixed)
+    sigma:    0.02483 (fixed)
+    mu:       0.0026 (fixed)
+    rho:      774 (fixed)
+    R_0:      0.00065 (fixed)
+    theta_s:  2.970801 (fixed)
+    L:        0.00991558 +/- 0.00000000 (0.00%) == '-2*sigma*cos(theta_s)/(rho*g*R_0)'
+    U:        1.23385275 +/- 0.00000000 (0.00%) == 'R_0**2*rho*g/mu'
+    T:        0.00803628 +/- 0.00000000 (0.00%) == 'L/U'
+    P:        75.2884142 +/- 0.00000000 (0.00%) == 'rho*g*L'
+    epsilon:  0.06555339 +/- 0.00000000 (0.00%) == 'R_0/L'
+    Re:       3642.07704 +/- 0.00000000 (0.00%) == 'rho*U*L/mu'
+    I:        15.6509058 +/- 0.00000000 (0.00%) == 'epsilon**2 * Re'
+    Ca:       1.97090090 +/- 0.00000000 (0.00%) == 'mu*U/sigma/epsilon'
+    eta:      4.09859981 +/- 0.10914275 (2.66%) (init = 1)
+    slip:     1.2101e-09 +/- 4.3823e-06 (362140.14%) (init = 0.1)
+
+[ext. model: height fit]
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 55
+    # data points      = 27
+    # variables        = 1
+    chi-square         = 13.9610611
+    reduced chi-square = 0.53696389
+    Akaike info crit   = -15.8082487
+    Bayesian info crit = -14.5124118
+[[Variables]]
+    g:        9.81 (fixed)
+    sigma:    0.02483 (fixed)
+    mu:       0.0026 (fixed)
+    rho:      774 (fixed)
+    R_0:      0.00065 (fixed)
+    theta_s:  2.970801 (fixed)
+    L:        0.00991558 +/- 0.00000000 (0.00%) == '-2*sigma*cos(theta_s)/(rho*g*R_0)'
+    U:        1.23385275 +/- 0.00000000 (0.00%) == 'R_0**2*rho*g/mu'
+    T:        0.00803628 +/- 0.00000000 (0.00%) == 'L/U'
+    P:        75.2884142 +/- 0.00000000 (0.00%) == 'rho*g*L'
+    epsilon:  0.06555339 +/- 0.00000000 (0.00%) == 'R_0/L'
+    Re:       3642.07704 +/- 0.00000000 (0.00%) == 'rho*U*L/mu'
+    I:        15.6509058 +/- 0.00000000 (0.00%) == 'epsilon**2 * Re'
+    Ca:       1.97090090 +/- 0.00000000 (0.00%) == 'mu*U/sigma/epsilon'
+    eta:      4.36960013 +/- 0.01595916 (0.37%) (init = 1)
+    slip:     0 (fixed)
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 103
+    # data points      = 27
+    # variables        = 2
+    chi-square         = 13.9609190
+    reduced chi-square = 0.55843676
+    Akaike info crit   = -13.8085233
+    Bayesian info crit = -11.2168496
+[[Variables]]
+    g:        9.81 (fixed)
+    sigma:    0.02483 (fixed)
+    mu:       0.0026 (fixed)
+    rho:      774 (fixed)
+    R_0:      0.00065 (fixed)
+    theta_s:  2.970801 (fixed)
+    L:        0.00991558 +/- 0.00000000 (0.00%) == '-2*sigma*cos(theta_s)/(rho*g*R_0)'
+    U:        1.23385275 +/- 0.00000000 (0.00%) == 'R_0**2*rho*g/mu'
+    T:        0.00803628 +/- 0.00000000 (0.00%) == 'L/U'
+    P:        75.2884142 +/- 0.00000000 (0.00%) == 'rho*g*L'
+    epsilon:  0.06555339 +/- 0.00000000 (0.00%) == 'R_0/L'
+    Re:       3642.07704 +/- 0.00000000 (0.00%) == 'rho*U*L/mu'
+    I:        15.6509058 +/- 0.00000000 (0.00%) == 'epsilon**2 * Re'
+    Ca:       1.97090090 +/- 0.00000000 (0.00%) == 'mu*U/sigma/epsilon'
+    eta:      4.36491125 +/- 0.01641504 (0.38%) (init = 1)
+    slip:     1.8846e-07 +/- 3.1928e-06 (1694.17%) (init = 0.1)
+
+[ext. model: theta fit]
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 39
+    # data points      = 24
+    # variables        = 1
+    chi-square         = 27.2141824
+    reduced chi-square = 1.18322532
+    Akaike info crit   = 5.01642609
+    Bayesian info crit = 6.19447992
+[[Variables]]
+    g:        9.81 (fixed)
+    sigma:    0.02483 (fixed)
+    mu:       0.0026 (fixed)
+    rho:      774 (fixed)
+    R_0:      0.00065 (fixed)
+    theta_s:  2.970801 (fixed)
+    L:        0.00991558 +/- 0.00000000 (0.00%) == '-2*sigma*cos(theta_s)/(rho*g*R_0)'
+    U:        1.23385275 +/- 0.00000000 (0.00%) == 'R_0**2*rho*g/mu'
+    T:        0.00803628 +/- 0.00000000 (0.00%) == 'L/U'
+    P:        75.2884142 +/- 0.00000000 (0.00%) == 'rho*g*L'
+    epsilon:  0.06555339 +/- 0.00000000 (0.00%) == 'R_0/L'
+    Re:       3642.07704 +/- 0.00000000 (0.00%) == 'rho*U*L/mu'
+    I:        15.6509058 +/- 0.00000000 (0.00%) == 'epsilon**2 * Re'
+    Ca:       1.97090090 +/- 0.00000000 (0.00%) == 'mu*U/sigma/epsilon'
+    eta:      3.82954397 +/- 0.02408831 (0.63%) (init = 1)
+    slip:     0 (fixed)
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 89
+    # data points      = 24
+    # variables        = 2
+    chi-square         = 27.2140678
+    reduced chi-square = 1.23700308
+    Akaike info crit   = 7.01632500
+    Bayesian info crit = 9.37243266
+##  Warning: uncertainties could not be estimated:
+[[Variables]]
+    g:        9.81 (fixed)
+    sigma:    0.02483 (fixed)
+    mu:       0.0026 (fixed)
+    rho:      774 (fixed)
+    R_0:      0.00065 (fixed)
+    theta_s:  2.970801 (fixed)
+    L:        0.00991558 +/-        nan (nan%) == '-2*sigma*cos(theta_s)/(rho*g*R_0)'
+    U:        1.23385275 +/-        nan (nan%) == 'R_0**2*rho*g/mu'
+    T:        0.00803628 +/-        nan (nan%) == 'L/U'
+    P:        75.2884142 +/-        nan (nan%) == 'rho*g*L'
+    epsilon:  0.06555339 +/-        nan (nan%) == 'R_0/L'
+    Re:       3642.07704 +/-        nan (nan%) == 'rho*U*L/mu'
+    I:        15.6509058 +/-        nan (nan%) == 'epsilon**2 * Re'
+    Ca:       1.97090090 +/-        nan (nan%) == 'mu*U/sigma/epsilon'
+    eta:      3.82680835 +/-        nan (nan%) (init = 1)
+    slip:     9.0029e-07 +/-        nan (nan%) (init = 0.1)
+
+[ext. model: height & theta fit]
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 32
+    # data points      = 51
+    # variables        = 1
+    chi-square         = 44.9257359
+    reduced chi-square = 0.89851472
+    Akaike info crit   = -4.46755581
+    Bayesian info crit = -2.53573018
+[[Variables]]
+    g:        9.81 (fixed)
+    sigma:    0.02483 (fixed)
+    mu:       0.0026 (fixed)
+    rho:      774 (fixed)
+    R_0:      0.00065 (fixed)
+    theta_s:  2.970801 (fixed)
+    L:        0.00991558 +/- 0.00000000 (0.00%) == '-2*sigma*cos(theta_s)/(rho*g*R_0)'
+    U:        1.23385275 +/- 0.00000000 (0.00%) == 'R_0**2*rho*g/mu'
+    T:        0.00803628 +/- 0.00000000 (0.00%) == 'L/U'
+    P:        75.2884142 +/- 0.00000000 (0.00%) == 'rho*g*L'
+    epsilon:  0.06555339 +/- 0.00000000 (0.00%) == 'R_0/L'
+    Re:       3642.07704 +/- 0.00000000 (0.00%) == 'rho*U*L/mu'
+    I:        15.6509058 +/- 0.00000000 (0.00%) == 'epsilon**2 * Re'
+    Ca:       1.97090090 +/- 0.00000000 (0.00%) == 'mu*U/sigma/epsilon'
+    eta:      3.94442049 +/- 0.12152051 (3.08%) (init = 1)
+    slip:     0 (fixed)
+[[Fit Statistics]]
+    # fitting method   = Nelder-Mead
+    # function evals   = 100
+    # data points      = 51
+    # variables        = 2
+    chi-square         = 44.9039815
+    reduced chi-square = 0.91640779
+    Akaike info crit   = -2.49225754
+    Bayesian info crit = 1.37139372
+[[Variables]]
+    g:        9.81 (fixed)
+    sigma:    0.02483 (fixed)
+    mu:       0.0026 (fixed)
+    rho:      774 (fixed)
+    R_0:      0.00065 (fixed)
+    theta_s:  2.970801 (fixed)
+    L:        0.00991558 +/- 0.00000000 (0.00%) == '-2*sigma*cos(theta_s)/(rho*g*R_0)'
+    U:        1.23385275 +/- 0.00000000 (0.00%) == 'R_0**2*rho*g/mu'
+    T:        0.00803628 +/- 0.00000000 (0.00%) == 'L/U'
+    P:        75.2884142 +/- 0.00000000 (0.00%) == 'rho*g*L'
+    epsilon:  0.06555339 +/- 0.00000000 (0.00%) == 'R_0/L'
+    Re:       3642.07704 +/- 0.00000000 (0.00%) == 'rho*U*L/mu'
+    I:        15.6509058 +/- 0.00000000 (0.00%) == 'epsilon**2 * Re'
+    Ca:       1.97090090 +/- 0.00000000 (0.00%) == 'mu*U/sigma/epsilon'
+    eta:      3.93242192 +/- 0.00718865 (0.18%) (init = 1)
+    slip:     1.2382e-07 +/- 3.4681e-06 (2800.82%) (init = 0.1)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(eta, slip) = -0.298
