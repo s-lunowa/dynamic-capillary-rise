@@ -138,7 +138,7 @@ The software is based on the following publications:
   Stud. Appl. Math. 147 (2021) 84-126.
   [DOI: 10.1111/sapm.12376](https://doi.org/10.1111/sapm.12376)
 * S.B. Lunowa, A. Mascini, C. Bringedal, T. Bultreys, V. Cnudde, I.S. Pop,
-  *Capillary Rise of Fluids in Cylindrical Tubes*.
+  *Dynamic effects during the capillary rise of fluids in cylindrical tubes*.
   Submitted (2021). Preprint available at <http://www.uhasselt.be/Documents/CMAT/Preprints/2021/UP2107.pdf>.
 
 
