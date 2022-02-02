@@ -1,7 +1,7 @@
 # Software for Fitting the Upscaled and Extended Model of Capillary Rise to Experimental Data
 
 This Python based software is used to produce the fitting reported by
-[Lunowa, Mascini, et al. (2021)](#references). It requires the data from
+[Lunowa, Mascini, et al. (2022)](#references). It requires the data from
 [Heshmati and Piri (2014)](#references), but can be simply extended to include
 other data sets, where the rise height and the contact angle are reported over
 time.
@@ -13,7 +13,7 @@ produced from the fitted models.
 However all the fits (`data/<fluid>_R<radius>mm.fit`), the parameter data
 (`data/<fluid>_R<radius>mm_<modeltype>_<fittype><slip>.param`) and the summaries
 (`<fluid>_<modeltype>.csv`), which are reported in
-[Lunowa, Mascini, et al. (2021)](#references), are included.
+[Lunowa, Mascini, et al. (2022)](#references), are included.
 
 
 ## Installation
@@ -79,7 +79,7 @@ Note the following parameters, which could slightly affect the fitting procedure
   used to extract the static contact angle.
 * The function `_extended_model_integrator` for the solution of the extended
   model has an dict argument `kws` that may include the initial velocity `"v0"`
-  (default described by [Lunowa, Mascini, et al. (2021)](#references)) and the
+  (default described by [Lunowa, Mascini, et al. (2022)](#references)) and the
   maximal time step for the numerical integration of the ODE `"max_step"`
   (default 0.01).
 * The function `fit_and_save(<fluid>, kws)` has a dict argument `kws` that may
@@ -102,7 +102,7 @@ comment line beginning with `#`. For an example, see the file
 `data/glycerol_R0.5mm1.csv`.
 
 To fit the model for an fluid with other properties than those reported in
-[Lunowa, Mascini, et al. (2021)](#references), you need to change the file
+[Lunowa, Mascini, et al. (2022)](#references), you need to change the file
 `DataAnalysis.py` by the following steps:
 
 1. In the dict `_fit_extended` add for the fluid whether the extended model
@@ -139,7 +139,7 @@ The software is based on the following publications:
   [DOI: 10.1111/sapm.12376](https://doi.org/10.1111/sapm.12376)
 * S.B. Lunowa, A. Mascini, C. Bringedal, T. Bultreys, V. Cnudde, I.S. Pop,
   *Dynamic effects during the capillary rise of fluids in cylindrical tubes*.
-  Submitted (2021). Preprint available at <http://www.uhasselt.be/Documents/CMAT/Preprints/2021/UP2107.pdf>.
+  Langmuir (2022). [DOI: 10.1021/acs.langmuir.1c02680](https://doi.org/10.1021/acs.langmuir.1c02680).
 
 
 ## Copyright, License & Contact
